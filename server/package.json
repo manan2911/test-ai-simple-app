@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "npm start server.js",
-    "dev": "npm run dev server.js",
+    "start": "npm start ",
+    "dev": "npm run dev ",
     "build": "npm install"
   },
   "dependencies": {
