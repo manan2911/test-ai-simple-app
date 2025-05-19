@@ -5,8 +5,8 @@ import axios from "axios";
 // Simple environment switch without .env file
 const API_BASE_URL =
     window.location.hostname === "localhost"
-        ? "http://localhost:5000"
-        : "http://localhost:5000";
+        ? "https://test-ai-simple-app.onrender.com"
+        : "https://test-ai-simple-app.onrender.com";
 
 function ChatPage() {
     const { logout } = useAuth();
