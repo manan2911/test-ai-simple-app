@@ -20,7 +20,8 @@ async function getAIResponse(prompt) {
         const aiMessage = response.data.choices[0].message.content.trim();
         return aiMessage;
     } catch (error) {
-        console.error("AI Response Error:", error);
+
+        console.log("AI Response Error:", error);
         return "Sorry, I am currently unable to respond. Please try again later.";
     }
 }
