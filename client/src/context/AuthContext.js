@@ -24,7 +24,7 @@ export function AuthProvider({ children }) {
     // Login function
     const login = async (username, password) => {
         try {
-            const response = await axios.post("https://test-ai-simple-app.onrender.com/auth/login", {
+            const response = await axios.post("http://localhost:5000/auth/login", {
                 username,
                 password,
             });
@@ -42,7 +42,7 @@ export function AuthProvider({ children }) {
     // Signup function
     const signup = async (username, password) => {
         try {
-            const response = await axios.post("https://test-ai-simple-app.onrender.com/auth/signup", {
+            const response = await axios.post("http://localhost:5000/auth/signup", {
                 username,
                 password,
             });
