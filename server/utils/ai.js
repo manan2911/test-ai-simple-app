@@ -12,7 +12,7 @@ async function getAIResponse(prompt) {
             {
                 headers: {
                     "Content-Type": "application/json",
-                    "Authorization": `Bearer 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`,
+                    "Authorization": `Bearer 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`,
                 },
             }
         );
