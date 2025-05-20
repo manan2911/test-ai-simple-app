@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const OPENAI_API_KEY = "sk-ZYIKym8q0YSl4X9JIJ63Il2-83N2nGuuW075WrqBOsT3BlbkFJq11TEYaeJR8XUFwPD5DqRgS3VU4V-QtGb2tX0Y0acA";
+const OPENAI_API_KEY = "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";
 
 async function getAIResponse(prompt) {
   try {
